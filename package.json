@@ -1,6 +1,6 @@
 {
   "name": "@jr200-labs/nats-otlp-exporter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "OpenTelemetry SDK exporters that publish OTLP protobuf over a NATS connection",
   "license": "MIT",
   "author": "Jayshan Raghunandan",
@@ -9,7 +9,7 @@
     "url": "git+https://github.com/jr200-labs/nats-otlp-exporter.git"
   },
   "type": "module",
-  "packageManager": "pnpm@10.21.0",
+  "packageManager": "pnpm@10.33.0",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
