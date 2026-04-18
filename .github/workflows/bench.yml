@@ -5,7 +5,7 @@ on:
 
 jobs:
   bench:
-    uses: jr200/github-action-templates/.github/workflows/bench.yml@main
+    uses: jr200-labs/github-action-templates/.github/workflows/bench.yml@master
     with:
       warn-threshold: ${{ vars.BENCH_WARN_THRESHOLD || '10' }}
       fail-threshold: ${{ vars.BENCH_FAIL_THRESHOLD || '50' }}
