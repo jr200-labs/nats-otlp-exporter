@@ -1,0 +1,15 @@
+# Repo-specific syncpack overrides — merged ahead of the shared base
+# by sync.sh. Base baseline lives in jr200-labs/github-action-templates
+# shared/syncpack/.syncpackrc.base.yaml. Do NOT duplicate base rules
+# here — only add rules that override or extend the base.
+#
+# Merge order: this file first (wins on first-match), base last.
+
+semverGroups:
+  # Library convention: peerDependencies declared as `>=` so consumers
+  # aren't pinned to our caret range. Non-peer deps fall through to
+  # the shared base caret default.
+  - label: 'Peer deps — >= range'
+    dependencyTypes:
+      - peer
+    range: '>='
