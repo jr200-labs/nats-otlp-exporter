@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.3.0](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.2.0...v0.3.0) (2026-05-09)
+
+
+### Features
+
+* **deps:** update actions/checkout action to v6 ([#15](https://github.com/jr200-labs/nats-otlp-exporter/issues/15)) ([70c43b7](https://github.com/jr200-labs/nats-otlp-exporter/commit/70c43b75c78f03e9c353bfc7d4490d139db54607))
+* **deps:** update dependency syncpack to v15 ([#16](https://github.com/jr200-labs/nats-otlp-exporter/issues/16)) ([670e3b1](https://github.com/jr200-labs/nats-otlp-exporter/commit/670e3b1a2154dd488c4a49131dd430705642152b))
+* **deps:** update dependency vite to v8 ([#18](https://github.com/jr200-labs/nats-otlp-exporter/issues/18)) ([c1689de](https://github.com/jr200-labs/nats-otlp-exporter/commit/c1689deba2ceb4aafd4475a59bd54e3662b144e4))
+* **deps:** update pnpm to v11 ([#19](https://github.com/jr200-labs/nats-otlp-exporter/issues/19)) ([98d286f](https://github.com/jr200-labs/nats-otlp-exporter/commit/98d286f73fc32a0fcc3e8833132723979332078c))
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#17](https://github.com/jr200-labs/nats-otlp-exporter/issues/17)) ([176f1cc](https://github.com/jr200-labs/nats-otlp-exporter/commit/176f1ccda284a3ad66e524c1a46f94282addba4c))
+
 ## [0.2.0](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.1.2...v0.2.0) (2026-04-24)
 
 
