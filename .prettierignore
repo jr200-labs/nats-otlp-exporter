@@ -10,3 +10,4 @@ pnpm-lock.yaml
 .syncpackrc.yaml
 release-please-config.json
 CHANGELOG.md
+.github/workflows/renovate.yaml
