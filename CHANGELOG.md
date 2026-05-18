@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.3.2](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.1...v0.3.2) (2026-05-18)
+
+
+### Bug Fixes
+
+* **deps:** update actions/create-github-app-token action to v3.2.0 ([#25](https://github.com/jr200-labs/nats-otlp-exporter/issues/25)) ([2c2fedb](https://github.com/jr200-labs/nats-otlp-exporter/commit/2c2fedb2e2594daf30abbabb3e180274f43fb58c))
+* **deps:** update all non-major dependencies ([#24](https://github.com/jr200-labs/nats-otlp-exporter/issues/24)) ([0fc5712](https://github.com/jr200-labs/nats-otlp-exporter/commit/0fc5712e161db37f3cbb747da8948d89a568de87))
+* **deps:** update all non-major dependencies ([#27](https://github.com/jr200-labs/nats-otlp-exporter/issues/27)) ([54e534d](https://github.com/jr200-labs/nats-otlp-exporter/commit/54e534d227be661a20bd2076c8ec5d6d536cdd4f))
+
 ## [0.3.1](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.0...v0.3.1) (2026-05-09)
 
 
