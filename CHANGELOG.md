@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.4](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.3...v0.3.4) (2026-06-06)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#31](https://github.com/jr200-labs/nats-otlp-exporter/issues/31)) ([94a6c0d](https://github.com/jr200-labs/nats-otlp-exporter/commit/94a6c0d3ff583d0a572354f9c01de2e2c3400597))
+
 ## [0.3.3](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.2...v0.3.3) (2026-05-23)
 
 
