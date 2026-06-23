@@ -83,12 +83,12 @@
     "@opentelemetry/sdk-trace-base": "^2.8.0",
     "@types/node": "^24.13.2",
     "eslint": "^10.5.0",
-    "globals": "^17.6.0",
+    "globals": "^17.7.0",
     "prettier": "^3.8.4",
     "syncpack": "^15.3.2",
     "testcontainers": "^12.0.3",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.61.1",
+    "typescript-eslint": "^8.62.0",
     "vite": "^8.0.16",
     "vitest": "^4.1.9"
   }
