@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.3.9](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.8...v0.3.9) (2026-06-27)
+
+
+### Features
+
+* **deps:** update github-actions ([#49](https://github.com/jr200-labs/nats-otlp-exporter/issues/49)) ([6675672](https://github.com/jr200-labs/nats-otlp-exporter/commit/66756723f0c93014d9305729e70506727176ce9b))
+* **deps:** update github-actions ([#53](https://github.com/jr200-labs/nats-otlp-exporter/issues/53)) ([ca3191b](https://github.com/jr200-labs/nats-otlp-exporter/commit/ca3191b81020d123cfa87ee3a98472409c4e7372))
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#57](https://github.com/jr200-labs/nats-otlp-exporter/issues/57)) ([b80cca5](https://github.com/jr200-labs/nats-otlp-exporter/commit/b80cca5007a5ce3a76c24981d38d1b33ffbaafe2))
+* **deps:** update all non-major dependencies ([#59](https://github.com/jr200-labs/nats-otlp-exporter/issues/59)) ([33f35c0](https://github.com/jr200-labs/nats-otlp-exporter/commit/33f35c090700cedd957cec81f963071e4a4a41c1))
+* **deps:** update dependency jr200-labs/github-action-templates to shared-v0.1.19 ([#58](https://github.com/jr200-labs/nats-otlp-exporter/issues/58)) ([96feb97](https://github.com/jr200-labs/nats-otlp-exporter/commit/96feb97f2089d8b7ef10139c648d68849e9a0846))
+* **deps:** update dependency prettier to ^3.8.5 ([#60](https://github.com/jr200-labs/nats-otlp-exporter/issues/60)) ([3751d6d](https://github.com/jr200-labs/nats-otlp-exporter/commit/3751d6d960b4fd111ea6a3a2fdba323b6c1c6d17))
+* **deps:** update shared workflow ref ([#48](https://github.com/jr200-labs/nats-otlp-exporter/issues/48)) ([d041ad5](https://github.com/jr200-labs/nats-otlp-exporter/commit/d041ad5257ff46c900fd4a0bca1e8520c1ed363f))
+* **deps:** update shared workflow ref ([#52](https://github.com/jr200-labs/nats-otlp-exporter/issues/52)) ([0293e38](https://github.com/jr200-labs/nats-otlp-exporter/commit/0293e386cea3a2037d883c61119d4b3f2efc1afe))
+* **deps:** update shared workflow ref ([#54](https://github.com/jr200-labs/nats-otlp-exporter/issues/54)) ([11f2d8d](https://github.com/jr200-labs/nats-otlp-exporter/commit/11f2d8db23dbea410998e18c6ecd85d634c15d76))
+* **deps:** update shared workflow ref ([#55](https://github.com/jr200-labs/nats-otlp-exporter/issues/55)) ([38b9f75](https://github.com/jr200-labs/nats-otlp-exporter/commit/38b9f75be47d86e9172ab6d52805a7a70993ad4c))
+* **deps:** update shared workflow ref ([#56](https://github.com/jr200-labs/nats-otlp-exporter/issues/56)) ([13a6f15](https://github.com/jr200-labs/nats-otlp-exporter/commit/13a6f1516889cc5a46a876d360ecce377eb8bcc7))
+
 ## [0.3.8](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.7...v0.3.8) (2026-06-19)
 
 
