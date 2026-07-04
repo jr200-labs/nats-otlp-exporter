@@ -45,7 +45,9 @@ async function makeMetrics(): Promise<ResourceMetrics> {
 
 function makeLog(): ReadableLogRecord {
   const mem = new InMemoryLogRecordExporter()
-  const provider = new LoggerProvider({ processors: [new SimpleLogRecordProcessor(mem)] })
+  const provider = new LoggerProvider({
+    processors: [new SimpleLogRecordProcessor({ exporter: mem })],
+  })
   provider.getLogger('t').emit({ severityNumber: 9, body: 'x' })
   return mem.getFinishedLogRecords()[0]!
 }

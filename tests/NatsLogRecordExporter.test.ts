@@ -12,7 +12,7 @@ import { createMockConnection, asNatsConnection } from './helpers.js'
 function makeLogRecord(): ReadableLogRecord {
   const memExporter = new InMemoryLogRecordExporter()
   const provider = new LoggerProvider({
-    processors: [new SimpleLogRecordProcessor(memExporter)],
+    processors: [new SimpleLogRecordProcessor({ exporter: memExporter })],
   })
   const logger = provider.getLogger('test')
   logger.emit({

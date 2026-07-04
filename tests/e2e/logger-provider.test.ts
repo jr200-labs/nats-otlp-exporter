@@ -11,7 +11,7 @@ describe('NatsLogRecordExporter e2e with LoggerProvider', () => {
       subject: 'e2e.logs',
     })
     const provider = new LoggerProvider({
-      processors: [new BatchLogRecordProcessor(exporter)],
+      processors: [new BatchLogRecordProcessor({ exporter })],
     })
     const logger = provider.getLogger('e2e')
 
