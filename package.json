@@ -54,11 +54,11 @@
   "peerDependencies": {
     "@nats-io/nats-core": ">=3.4.0",
     "@opentelemetry/api": ">=1.9.1",
-    "@opentelemetry/core": ">=2.8.0",
-    "@opentelemetry/otlp-transformer": ">=0.219.0",
-    "@opentelemetry/sdk-logs": ">=0.219.0",
-    "@opentelemetry/sdk-metrics": ">=2.8.0",
-    "@opentelemetry/sdk-trace-base": ">=2.8.0"
+    "@opentelemetry/core": ">=2.9.0",
+    "@opentelemetry/otlp-transformer": ">=0.220.0",
+    "@opentelemetry/sdk-logs": ">=0.220.0",
+    "@opentelemetry/sdk-metrics": ">=2.9.0",
+    "@opentelemetry/sdk-trace-base": ">=2.9.0"
   },
   "peerDependenciesMeta": {
     "@opentelemetry/sdk-logs": {
@@ -76,11 +76,11 @@
     "@nats-io/nats-core": "^3.4.0",
     "@nats-io/transport-node": "^3.4.0",
     "@opentelemetry/api": "^1.9.1",
-    "@opentelemetry/core": "^2.8.0",
-    "@opentelemetry/otlp-transformer": "^0.219.0",
-    "@opentelemetry/sdk-logs": "^0.219.0",
-    "@opentelemetry/sdk-metrics": "^2.8.0",
-    "@opentelemetry/sdk-trace-base": "^2.8.0",
+    "@opentelemetry/core": "^2.9.0",
+    "@opentelemetry/otlp-transformer": "^0.220.0",
+    "@opentelemetry/sdk-logs": "^0.220.0",
+    "@opentelemetry/sdk-metrics": "^2.9.0",
+    "@opentelemetry/sdk-trace-base": "^2.9.0",
     "@types/node": "^24.13.2",
     "eslint": "^10.6.0",
     "globals": "^17.7.0",
@@ -89,7 +89,7 @@
     "testcontainers": "^12.0.4",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.62.1",
-    "vite": "^8.1.2",
+    "vite": "^8.1.3",
     "vitest": "^4.1.9"
   }
 }

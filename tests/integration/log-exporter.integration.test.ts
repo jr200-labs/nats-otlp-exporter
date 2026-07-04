@@ -23,7 +23,7 @@ describe('NatsLogRecordExporter — real NATS broker', () => {
 
     const exporter = new NatsLogRecordExporter({ connection: () => nc, subject })
     const provider = new LoggerProvider({
-      processors: [new BatchLogRecordProcessor(exporter)],
+      processors: [new BatchLogRecordProcessor({ exporter })],
     })
     const logger = provider.getLogger('itest')
     logger.emit({ severityNumber: 9, severityText: 'INFO', body: 'real log' })
