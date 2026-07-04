@@ -13,3 +13,18 @@ semverGroups:
     dependencyTypes:
       - peer
     range: '>='
+
+versionGroups:
+  # OpenTelemetry peers are intentionally broader than dev install pins.
+  # Renovate bumps devDeps but not peerDeps (peerDependencies default off);
+  # without this ignore, every Renovate PR fails syncpack lint. See JRL-29.
+  - label: 'OTel peers broader than install pins — see JRL-29'
+    dependencyTypes: ['peer']
+    dependencies:
+      - '@opentelemetry/api'
+      - '@opentelemetry/core'
+      - '@opentelemetry/otlp-transformer'
+      - '@opentelemetry/sdk-logs'
+      - '@opentelemetry/sdk-metrics'
+      - '@opentelemetry/sdk-trace-base'
+    isIgnored: true
