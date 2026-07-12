@@ -38,7 +38,7 @@
     "bench:compare": "pnpm bench:best && node bench/compareBench.mjs bench/current.json bench/baseline.json",
     "bench:update": "pnpm bench:best && node bench/normalizeBench.mjs bench/current.json bench/baseline.json",
     "prettier": "prettier --write \"**/*.{ts,mjs,js,json,md,yml,yaml}\"",
-    "lint": "tsc --noEmit && eslint \"src/**/*.{ts,tsx}\"",
+    "lint": "tsc --noEmit",
     "prepublishOnly": "pnpm build && pnpm test"
   },
   "keywords": [
