@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.3.10](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.9...v0.3.10) (2026-07-12)
+
+
+### Features
+
+* **deps:** update dependency typescript to v7 ([#73](https://github.com/jr200-labs/nats-otlp-exporter/issues/73)) ([02367c8](https://github.com/jr200-labs/nats-otlp-exporter/commit/02367c81249267ba8930148abc3659644db9f862))
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#72](https://github.com/jr200-labs/nats-otlp-exporter/issues/72)) ([7b1d7e9](https://github.com/jr200-labs/nats-otlp-exporter/commit/7b1d7e9281a495cce6d59690cd669b802fcc243c))
+* **deps:** update dependency jr200-labs/github-action-templates to shared-v0.1.29 ([#71](https://github.com/jr200-labs/nats-otlp-exporter/issues/71)) ([0d4c672](https://github.com/jr200-labs/nats-otlp-exporter/commit/0d4c6722595686badd9c9157d64ac437b1f1d242))
+* **deps:** update pnpm to v11.10.0 ([#69](https://github.com/jr200-labs/nats-otlp-exporter/issues/69)) ([83240b4](https://github.com/jr200-labs/nats-otlp-exporter/commit/83240b40b9aa475ebc3cd4bce44963b6c1f3046d))
+
 ## [0.3.9](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.8...v0.3.9) (2026-07-04)
 
 
