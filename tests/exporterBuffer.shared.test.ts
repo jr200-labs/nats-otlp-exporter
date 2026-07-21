@@ -118,7 +118,7 @@ describe.each(scenarios)('$name — ring buffer', ({ create, exportSample }) => 
     for (let i = 0; i < 3; i++) {
       const cb = vi.fn()
       exportSample(e, cb)
-      expect(cb).toHaveBeenCalledWith({ code: ExportResultCode.FAILED })
+      expect(cb).toHaveBeenCalledWith({ code: ExportResultCode.SUCCESS })
     }
     expect(mockNc.publish).not.toHaveBeenCalled()
     expect(e.bufferedCount).toBe(3)

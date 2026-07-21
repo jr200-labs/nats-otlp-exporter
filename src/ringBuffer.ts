@@ -37,15 +37,16 @@ export class RingBuffer {
     return this.maxItems === 0 && this.maxBytes === 0
   }
 
-  push(item: PreparedBatch): void {
-    if (this.disabled) return
+  push(item: PreparedBatch): boolean {
+    if (this.disabled) return false
     if (this.maxBytes > 0 && item.data.length > this.maxBytes) {
       this.onDrop?.('tooLarge', item.data.length)
-      return
+      return false
     }
     this.items.push(item)
     this.bytesTotal += item.data.length
     this.evict()
+    return true
   }
 
   drain(): PreparedBatch[] {
