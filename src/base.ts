@@ -125,8 +125,9 @@ export abstract class NatsOtlpExporterBase<TInput> {
 
     const nc = this.connectionFn()
     if (!nc) {
-      for (const b of prepared) this.ring.push(b)
-      cb({ code: ExportResultCode.FAILED })
+      let buffered = true
+      for (const batch of prepared) buffered = this.ring.push(batch) && buffered
+      cb({ code: buffered ? ExportResultCode.SUCCESS : ExportResultCode.FAILED })
       return
     }
     this.maybeWatchStatus(nc)

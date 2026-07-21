@@ -105,6 +105,7 @@ new NatsSpanExporter({
 
 - When buffer limits are exceeded, the **oldest** batch is dropped.
 - Single batches larger than `bufferMaxBytes` are rejected outright.
+- A disconnected export reports success when the exporter retains the batch; without a buffer it reports failure.
 - On reconnect, the buffer is drained oldest-first, then the current batch is published.
 - `retryIntervalMs` sets a small background timer that attempts to drain the buffer as soon as the connection returns — without this, drain only happens on the next `BatchSpanProcessor` flush (default 5s).
 - `shutdown()` does a best-effort drain with a 5s timeout.
