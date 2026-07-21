@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.3.11](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.10...v0.3.11) (2026-07-21)
+
+
+### Bug Fixes
+
+* accept buffered telemetry exports ([#79](https://github.com/jr200-labs/nats-otlp-exporter/issues/79)) ([0daa056](https://github.com/jr200-labs/nats-otlp-exporter/commit/0daa056ac087a55f0798fb71fc134a203d6a8904))
+* **deps:** update all non-major dependencies ([#74](https://github.com/jr200-labs/nats-otlp-exporter/issues/74)) ([207345a](https://github.com/jr200-labs/nats-otlp-exporter/commit/207345aa57662c59f820ced17c01e26009f16db9))
+* **deps:** update all non-major dependencies ([#78](https://github.com/jr200-labs/nats-otlp-exporter/issues/78)) ([e84cf2a](https://github.com/jr200-labs/nats-otlp-exporter/commit/e84cf2a5695a1d7f51b722c8b6ffe44a894b1a5c))
+* **deps:** update dependency jr200-labs/github-action-templates to shared-v0.1.30 ([#75](https://github.com/jr200-labs/nats-otlp-exporter/issues/75)) ([a3f71bb](https://github.com/jr200-labs/nats-otlp-exporter/commit/a3f71bb7b54c651fbc0b2eb6fd3ce60efe7dcfe0))
+* **deps:** update dependency jr200-labs/github-action-templates to shared-v0.1.32 ([#77](https://github.com/jr200-labs/nats-otlp-exporter/issues/77)) ([f8a5bbb](https://github.com/jr200-labs/nats-otlp-exporter/commit/f8a5bbbb5f9aac72926c7d46b9151d96186135fc))
+
 ## [0.3.10](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.9...v0.3.10) (2026-07-12)
 
 
