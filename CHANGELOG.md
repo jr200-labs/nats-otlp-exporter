@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.3.12](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.11...v0.3.12) (2026-07-22)
+
+
+### Bug Fixes
+
+* **ci:** restore npm publishing ([#84](https://github.com/jr200-labs/nats-otlp-exporter/issues/84)) ([fbb234c](https://github.com/jr200-labs/nats-otlp-exporter/commit/fbb234c6030e6164c30d90ffef042341f8ef83d1))
+* **deps:** update all non-major dependencies ([#83](https://github.com/jr200-labs/nats-otlp-exporter/issues/83)) ([5887aad](https://github.com/jr200-labs/nats-otlp-exporter/commit/5887aada03de40a322d37a505751ff9cf3840814))
+* **deps:** update dependency jr200-labs/github-action-templates to shared-v0.1.33 ([#82](https://github.com/jr200-labs/nats-otlp-exporter/issues/82)) ([c8f3cd9](https://github.com/jr200-labs/nats-otlp-exporter/commit/c8f3cd9ad0b15feeddf9e233d72a0ee37414716b))
+* **deps:** update dependency prettier to ^3.9.6 ([#80](https://github.com/jr200-labs/nats-otlp-exporter/issues/80)) ([f7a831b](https://github.com/jr200-labs/nats-otlp-exporter/commit/f7a831b2fd180f88ec381e310c0e6e9703d21bfc))
+
 ## [0.3.11](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.10...v0.3.11) (2026-07-21)
 
 
