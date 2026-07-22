@@ -4,3 +4,4 @@ workflows:
   - node
   - node-bench
   - release
+  - npm-package
