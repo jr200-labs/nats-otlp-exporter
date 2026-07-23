@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.13](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.12...v0.3.13) (2026-07-23)
+
+
+### Bug Fixes
+
+* **deps:** update pnpm to v11.16.0 ([#86](https://github.com/jr200-labs/nats-otlp-exporter/issues/86)) ([68cdb75](https://github.com/jr200-labs/nats-otlp-exporter/commit/68cdb756861692de4c2f710142dabcc81ac23af6))
+
 ## [0.3.12](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.11...v0.3.12) (2026-07-22)
 
 
