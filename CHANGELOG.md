@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.3.15](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.14...v0.3.15) (2026-08-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to ^10.8.1 ([#94](https://github.com/jr200-labs/nats-otlp-exporter/issues/94)) ([d9580cf](https://github.com/jr200-labs/nats-otlp-exporter/commit/d9580cf321eca27801d2ce079ca6fba5612c7c54))
+* **deps:** update dependency jr200-labs/github-action-templates to shared-v0.1.36 ([#95](https://github.com/jr200-labs/nats-otlp-exporter/issues/95)) ([85ac647](https://github.com/jr200-labs/nats-otlp-exporter/commit/85ac647c22d1e8e954bcb2a79fb9c2435580326b))
+* **deps:** update dependency vite to ^8.2.1 ([#92](https://github.com/jr200-labs/nats-otlp-exporter/issues/92)) ([c79de1d](https://github.com/jr200-labs/nats-otlp-exporter/commit/c79de1d451256a89520e9794d40af2558335a174))
+
 ## [0.3.14](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.13...v0.3.14) (2026-08-04)
 
 
