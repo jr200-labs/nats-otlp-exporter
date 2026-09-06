@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.3.15](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.14...v0.3.15) (2026-09-06)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#96](https://github.com/jr200-labs/nats-otlp-exporter/issues/96)) ([4c97209](https://github.com/jr200-labs/nats-otlp-exporter/commit/4c97209da67afee6d0e7584b3bb9387a94788bfa))
+* **deps:** update dependency eslint to ^10.8.1 ([#94](https://github.com/jr200-labs/nats-otlp-exporter/issues/94)) ([d9580cf](https://github.com/jr200-labs/nats-otlp-exporter/commit/d9580cf321eca27801d2ce079ca6fba5612c7c54))
+* **deps:** update dependency jr200-labs/github-action-templates to shared-v0.1.36 ([#95](https://github.com/jr200-labs/nats-otlp-exporter/issues/95)) ([85ac647](https://github.com/jr200-labs/nats-otlp-exporter/commit/85ac647c22d1e8e954bcb2a79fb9c2435580326b))
+* **deps:** update dependency jr200-labs/github-action-templates to shared-v0.1.37 ([#97](https://github.com/jr200-labs/nats-otlp-exporter/issues/97)) ([572ab48](https://github.com/jr200-labs/nats-otlp-exporter/commit/572ab481ad45daeb07d4aea21b76622834c2c6ac))
+* **deps:** update dependency jr200-labs/github-action-templates to shared-v0.1.38 ([#98](https://github.com/jr200-labs/nats-otlp-exporter/issues/98)) ([5d22f80](https://github.com/jr200-labs/nats-otlp-exporter/commit/5d22f80f4d55afe17e98b46f5fb2468acf34a109))
+* **deps:** update dependency jr200-labs/github-action-templates to shared-v0.1.46 ([#102](https://github.com/jr200-labs/nats-otlp-exporter/issues/102)) ([ef67e7d](https://github.com/jr200-labs/nats-otlp-exporter/commit/ef67e7d613945aeef486836b37833e537f37e3c0))
+* **deps:** update dependency vite to ^8.2.1 ([#92](https://github.com/jr200-labs/nats-otlp-exporter/issues/92)) ([c79de1d](https://github.com/jr200-labs/nats-otlp-exporter/commit/c79de1d451256a89520e9794d40af2558335a174))
+* **deps:** update dependency vitest to ^4.1.11 ([#100](https://github.com/jr200-labs/nats-otlp-exporter/issues/100)) ([5ebf90a](https://github.com/jr200-labs/nats-otlp-exporter/commit/5ebf90a1a836c59d60a2202b2b1fadd56a476adb))
+* **deps:** update pnpm to v11.22.0 ([#99](https://github.com/jr200-labs/nats-otlp-exporter/issues/99)) ([92d9420](https://github.com/jr200-labs/nats-otlp-exporter/commit/92d94202b1b6fcd60717bfa28d145de154914740))
+
 ## [0.3.14](https://github.com/jr200-labs/nats-otlp-exporter/compare/v0.3.13...v0.3.14) (2026-08-04)
 
 
